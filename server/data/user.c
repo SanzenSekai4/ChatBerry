@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include "user.h"
 
 user_t * init_user(uint32_t ip, char * name, char * pass, uint8_t red, uint8_t green, uint8_t blue) {
   user_t * user = malloc(sizeof(struct user_s));
